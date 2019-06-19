@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/background.jpg</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/Block.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/CheckFin.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/CheckNorm.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/CheckPow.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/Dispenser.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/Projectile.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/Trap.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/walkLeftM.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/walkRightM.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/background2.jpg</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/walkLeft.png</File>
+    <File>D:/semester2/OOP/speedrun/speedrun/Content/walkRight.png</File>
+  </SourceFiles>
+</SourceFileCollection>
