@@ -1,4 +1,3 @@
-D:\semester2\OOP\speedrun\speedrun\obj\x86\Debug\speedrun.csprojResolveAssemblyReference.cache
 D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\speedrun.exe
 D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\speedrun.pdb
 D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\MonoGame.Framework.dll
@@ -34,3 +33,6 @@ D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\Content\walkRightM.xnb
 D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\Content\background2.xnb
 D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\Content\walkLeft.xnb
 D:\semester2\OOP\speedrun\speedrun\bin\Windows\x86\Debug\Content\walkRight.xnb
+D:\semester2\OOP\speedrun\speedrun\obj\x86\Debug\speedrun.csprojAssemblyReference.cache
+D:\semester2\OOP\speedrun\speedrun\obj\x86\Debug\speedrun.csproj.CoreCompileInputs.cache
+D:\semester2\OOP\speedrun\speedrun\obj\x86\Debug\speedrun.csproj.CopyComplete

@@ -61,6 +61,7 @@ namespace speedrun
             int Tcord = CollisionRectangle.Top / 64;
             int centerY = CollisionRectangle.Center.Y / 64;
             int centerX = CollisionRectangle.Center.X / 64;
+            
 
             //BOTTEM
             if (B[Bcord, Lcord] is Block)
@@ -235,35 +236,36 @@ namespace speedrun
             int centerX = CollisionRectangle.Center.X / 64;
 
             //BOTTEM
-            if (B[Bcord, Lcord] is NormalCheckpoint)
+            if (B[Bcord, Lcord] is Projectile)
             {
                 SetSpawn(B[Bcord, Lcord]);
             }
-            else if (B[Bcord, Rcord] is NormalCheckpoint)
+            else if (B[Bcord, Rcord] is Projectile)
             {
                 SetSpawn(B[Bcord, Rcord]);
             }
-            else if (B[Bcord, centerX] is NormalCheckpoint)
+            else if (B[Bcord, centerX] is Projectile)
             {
                 SetSpawn(B[Bcord, centerX]);
             }
 
             //RIGHT
-            if (B[Bcord - 1, Rcord] is NormalCheckpoint)
+            if (B[Bcord - 1, Rcord] is Projectile)
             {
                 SetSpawn(B[Bcord - 1, Rcord]);
             }
             //LEFT
-            if (B[Bcord - 1, Lcord] is NormalCheckpoint)
+            if (B[Bcord - 1, Lcord] is Projectile)
             {
                 SetSpawn(B[Bcord - 1, Lcord]);
             }
             //TOP
-            if (B[Tcord, Lcord] is NormalCheckpoint)
+            if (B[Tcord, Lcord] is Projectile)
             {
                 SetSpawn(B[Bcord - 1, Lcord]);
             }
         }*/
+
         public void OnIntersect(GameObject O)
         {
             if (O.CollisionRectangle.Intersects(CollisionRectangle))
@@ -308,6 +310,7 @@ namespace speedrun
                 Velocity.Y -= -0.9f;
                 hasJumped = true;
             }
+            //Console.WriteLine(CollisionRectangle.X);
             lastPos = Position;
             Position += Velocity;
             ColBot.X = (int)Position.X;

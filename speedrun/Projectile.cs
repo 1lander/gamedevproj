@@ -42,7 +42,7 @@ namespace speedrun
             int centerX = CollisionRectangle.Center.X / 64;
 
             //BOTTEM
-            if (B[Bcord, Lcord] != null && !(B[Bcord, Lcord] is Dispenser))
+            /*if (B[Bcord, Lcord] != null && !(B[Bcord, Lcord] is Dispenser))
             {
                 c = true;
             }
@@ -53,7 +53,7 @@ namespace speedrun
             else if (B[Bcord, centerX] != null && !(B[Bcord, centerX] is Dispenser))
             {
                 c = true;
-            }
+            }*/
 
             //RIGHT
             if (B[Bcord - 1, Rcord] != null && !(B[Bcord - 1, Rcord] is Dispenser))

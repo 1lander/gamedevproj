@@ -42,27 +42,27 @@ namespace speedrun
                 {
                     if (tileArray[x, y] == 1)
                     {
-                        gameobjectArray[x, y] = new Block(tBlock, new Microsoft.Xna.Framework.Vector2(y * 64, x * 64));
+                        gameobjectArray[x, y] = new Block(tBlock, new Vector2(y * 64, x * 64));
                     }
                     if (tileArray[x, y] == 2)
                     {
-                        gameobjectArray[x, y] = new Trap(tTrap, new Microsoft.Xna.Framework.Vector2(y * 64, x * 64));
+                        gameobjectArray[x, y] = new Trap(tTrap, new Vector2(y * 64, x * 64));
                     }
                     if (tileArray[x, y] == 3)
                     {
-                        gameobjectArray[x, y] = new NormalCheckpoint(tCheckNorm, new Microsoft.Xna.Framework.Vector2(y * 64, x * 64));
+                        gameobjectArray[x, y] = new NormalCheckpoint(tCheckNorm, new Vector2(y * 64, x * 64));
                     }
                     if (tileArray[x, y] == 4)
                     {
-                        gameobjectArray[x, y] = new PowerUpCheckpoint(tCheckPow, new Microsoft.Xna.Framework.Vector2(y * 64, x * 64));
+                        gameobjectArray[x, y] = new PowerUpCheckpoint(tCheckPow, new Vector2(y * 64, x * 64));
                     }
                     if (tileArray[x, y] == 5)
                     {
-                        gameobjectArray[x, y] = new FinishCheckpoint(tCheckFin, new Microsoft.Xna.Framework.Vector2(y * 64, x * 64));
+                        gameobjectArray[x, y] = new FinishCheckpoint(tCheckFin, new Vector2(y * 64, x * 64));
                     }
                     if (tileArray[x, y] == 6)
                     {
-                        gameobjectArray[x, y] = new Dispenser(tDispenser, tProjectile, new Microsoft.Xna.Framework.Vector2(y * 64, x * 64));
+                        gameobjectArray[x, y] = new Dispenser(tDispenser, tProjectile, new Vector2(y * 64, x * 64));
                     }
                 }
             }
